@@ -1,0 +1,169 @@
+#articleun {
+    position: relative;
+    background-color: #fbf232;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.port {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+}
+
+.titnum {
+    float: left;
+    padding-bottom: 5%;
+}
+
+.right {
+    width: 50%;
+    float: right;
+    margin-top: 14.5%;
+}
+
+.righta {
+    float: right;
+    top: 3%;
+    margin-top: 1%;
+    padding-left: 10%;
+}
+
+.left {
+    float: left;
+}
+
+.lefta {
+    top: 3%;
+    margin-top: 9%;
+}
+
+.cleareur {
+    clear: both;
+    color: transparent;
+    background: transparent;
+}
+
+.workguide {
+    position: absolute;
+    display: block;
+    left: 50%;
+    width: 1px;
+    height: 100%;
+    top: 0px;
+    border-left: 1px dashed #000;
+    z-index: 9999;
+}
+
+#articledeux {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    width: 100%;
+    padding: 2%;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+
+#skills_ap {
+    color: #323232;
+}
+
+.full {
+    position: relative;
+    width: 100%;
+}
+
+#articletrois {
+    position: relative;
+    background-color: #fbf232;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2%;
+}
+
+.twitter-timeline {
+    margin: 50%;
+    margin-top: 5%;
+}
+
+.imge {
+    margin-left: 37%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 5%;
+    margin-top: 1%;
+}
+
+
+}
+.imgs {
+    width: 100px;
+    height: 100px;
+}
+header {
+    background: white;
+    font-family: 'Lobster';
+    padding-bottom: 0%;
+    left: 5%;
+}
+@media screen and (max-width: 700px) {
+    body {
+        padding: 170px 0 0 0;
+        width: 100%
+    }
+}
+a {
+    color: inherit;
+}
+. .credit {
+    margin: 24px 20px 120px 0;
+    text-align: right;
+    color: #EEEEEE;
+}
+.credit a {
+    padding: 8px 0;
+    color: #C49CDE;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+}
+.credit a:hover {
+    text-decoration: underline;
+}
+.classification-header {
+    text-transform: uppercase;
+    color: yellow;
+    letter-spacing: 0.1rem;
+    text-align: center;
+}
+.header-lockup {
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: 14%;
+    margin-bottom: 6%;
+    margin-top: 8%;
+}
+.fa fa-heartbeat {
+    color: yellow;
+}
+#fin {
+    text-align: center;
+    display: block;
+    padding-top: 5%;
+}
+footer {
+    text-align: center;
+    padding: 0px;
+    margin: 10px;
+}
+#outils {
+    top: 5%;
+}
