@@ -1,0 +1,74 @@
+body {
+    overflow: auto;
+    width: 100%;
+}
+
+#articleun {
+    position: relative;
+    background-color: #fbf232;
+    width: 98%;
+    padding: 2%;
+    z-index: 1;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+}
+
+#port {
+    display: flex;
+    flex-direction: column;
+}
+
+.workguide {
+    position: absolute;
+    display: block;
+    left: 50%;
+    width: 1px;
+    height: 100%;
+    top: 0px;
+    border-left: 1px dashed #000;
+    z-index: 9999;
+}
+
+#articledeux {
+    position: relative;
+    width: 98%;
+    padding: 2%;
+    z-index: 1;
+}
+
+#skills_ap {
+    color: #323232;
+}
+
+.full {
+    position: relative;
+    width: 100%;
+}
+
+#articletrois {
+    position: relative;
+    background-color: #fbf232;
+    width: 98%;
+    padding: 2%;
+    display: flex;
+    flex-direction: row;
+    text-align: right;
+}
+
+.twitter-timeline {
+    margin: 50%;
+    margin-top: 5%;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+}
+
+#aa {
+    width: 30px;
+    height: 30px;
+}
